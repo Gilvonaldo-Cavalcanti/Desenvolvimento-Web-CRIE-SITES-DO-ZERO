@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+h2, h3, p, ul, li {
+    padding-top: 10px;
+}
+
+div.perfil {
+    background-color: rgb(173, 206, 243);
+    text-align: center;
+}
+
+div.resumo {
+    background-color: rgb(230, 228, 228);
+    text-align: center;
+}
+
+a.button {
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: rgb(59, 59, 184);
+}
+
+hr {
+    background-color: rgb(187, 187, 233);
+    height: 3px;
+}
+
+h3 {
+    color:rgb(187, 187, 233);
+}
+
+#github {
+    background-color: rgb(85, 81, 81);
+}
+
+#linkedin {
+    background-color: rgb(19, 36, 129);
+}
+
+#youtube {
+    background-color: #FF0000;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name='viewport' content="width=device-width, initial-scale=1">
+    <title>Info Filmes</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+</head>
+
+<body background="imgFundo.jpg">
+
+    <div class="quadro">
+        <div class="container container-app">
+            <div>
+                <img class="nomeApp" src="https://fontmeme.com/permalink/210215/69fdb72357e268d30ae51b242352b2bf.png">
+                <div>
+                    <p class="descricaoApp1">
+                        O maior e mais conhecido site para buscar informções sobre filmes e séries.
+                    </p>
+                    <p class="descricaoApp2">
+                        No Help Filmes você tem acesso a uma ficha de informações sobre filmes e séries.
+                        Contendo cada detalhe que vai te ajudar a escolher o melhor filme para aproveitar
+                        com seus amigos e familiáres.
+                    </p>
+                </div>
+                <div class="buscar">
+                    <p id="mensagemErro" class="msgErro"></p>
+                    <div class="input_div">
+                        <input class="input" type="text" placeholder="Digite o nome de um Filme.">
+                    </div>
+                    <button id="botao_buscar" class="buscarBt">Buscar</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div>
+                <div class="informacoes_parte1">
+                    <img class="poster" src="default_image.png">
+                    <h1 id="titulo" class="titulo"></h1>
+                    <p id="sinopse" class="sinopse"></p>
+                </div>
+                <div class="informacoes_parte2">
+                    <div class="detalhes">
+                        <p id="ano"></p>
+                        <p id="duracao"></p>
+                    </div>
+                    <p id="genero" class="nome"></p>
+                    <p id="atores" class="nome"></p>
+                    <p id="diretor" class="nome"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: slateblue;
+}
+
+div.container {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    padding: 15px 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.container h1 {
+    font-size: 22px;
+    color: rgb(60, 60, 60);
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+}
+
+div.container input {
+    width: 100%;
+    max-width: 50px;
+    padding: 5px 0;
+    font-size: 16px;
+    text-align: center;
+    outline: 0;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    color: rgb(80, 80, 80);
+}
+
+div.container select {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: rgb(80, 80, 80);
+    border: 1px solid rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+div.container input:focus{
+    border: 1px solid slateblue;
+}
+
+div.container select:focus{
+    border: 1px solid slateblue;
+}
+
+div.tabuada {
+    width: 100%;
+    text-align: center;
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+    line-height: 32px;
+    margin: 15px 0;
+}
+
+div.container button{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+    background-color: slateblue;
+    color: white;
+    cursor: pointer;
+}
+
+div.container input::-webkit-inner-spin-button {
+    display: none;
+}

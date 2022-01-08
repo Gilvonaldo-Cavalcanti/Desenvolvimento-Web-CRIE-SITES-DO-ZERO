@@ -1,0 +1,108 @@
+
+#principal {
+    width: 100%;
+    height: 100%;
+    background-image: url("img/advocacia.png");
+    background-size: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-repeat: no-repeat;
+
+}
+
+#coluna1-principal {
+    float: left;
+    width: 45%;
+    padding: 4%;
+    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.5);
+    height: 100%;
+}
+
+
+#coluna2-principal {
+    float: right;
+    width: 55%;
+}
+
+.e-mail-contato {
+    float: left;
+    width: 50%;
+    padding: 4%;
+}
+
+.mapa {
+    float: right;
+    width: 50%;
+    padding: 4%;
+}
+
+#area {
+    background-color: #fffbfb;  
+    
+}
+
+#quem-somos {
+    width: 100%;
+    padding: 6%;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 23px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.card:hover {
+
+    -webkit-box-shadow: -1px 9px 40px rgba(0,0,0,0.75);
+    -moz-box-sadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+
+}
+
+.card img {
+    opacity: 0.3;
+}
+
+/* Rodapé */
+.footer {
+
+    padding: 10px;
+    text-align: center;
+    background: #3f3838;
+    margin-top: 0px;
+    color: #ddd;
+}
+
+
+/* Maps Google */
+
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:80%;
+    position:relative;
+    height:0;
+}
+
+.map-container-3 iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
