@@ -1,0 +1,84 @@
+* {
+    background-color: azure;
+    text-align: center;
+    margin: 0 0 0 0;
+    color: white;
+}
+
+.aside_informacoes {
+    background-color: blue;
+    float: left;
+    width: 30vw;
+    height: 100vh;
+}
+
+.perfil {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    margin-top: 10px;
+    background-color: blue;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.button {
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#github {
+    background-color: rgb(85, 81, 81);
+}
+
+#linkedin {
+    background-color: rgb(19, 36, 129);
+}
+
+#youtube {
+    background-color: #FF0000;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent); 
+    margin-top: 20px;
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.links {
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+}
+
+.links a {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section_projetos h1, .section_projetos h2 {
+    background-color: azure;
+    color: black;
+}
