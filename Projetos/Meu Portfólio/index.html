@@ -1,46 +1,184 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="style.css"/>
-
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
+    <aside class="aside_informacoes">
 
-    <div>
-        <aside class="aside_informacoes">
-            
-            <img src="img/suricato_perfil.jpg" class="perfil">
+        <img src="img/suricato_perfil.jpg" class="perfil">
 
-            <h1>João Marcos</h1>
+        <h3>João Marcos</h3>
 
-            <h2>Desenvolvedor Full-Stack</h2>
+        <h4>Desenvolvedor Full-Stack</h4>
 
-            <a href="https://github.com/" target="_blank" rel="external" class="button" id="github">GITHUB</a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="external" class="button" id="linkedin">LINKEDIN</a>
-            <a href="https://www.youtube.com/" target="_blank" rel="external" class="button" id="youtube">YOUTUBE</a>
+        <a href="https://github.com/" target="_blank" rel="external" class="button" id="github">GITHUB</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="external" class="button" id="linkedin">LINKEDIN</a>
+        <a href="https://www.youtube.com/" target="_blank" rel="external" class="button" id="youtube">YOUTUBE</a>
 
-            <hr>
-            <div class="links">
-                <a href="#" target="_blank" rel="external" id="sobre">Sobre</a>
-                <a href="#" target="_blank" rel="external" id="projetos">Projetos</a>
-                <a href="#" target="_blank" rel="external" id="curriculo">Currículo</a>
-            </div>
-            
-            
-            
-        </aside>
+        <hr>
 
-        <section class="section_projetos">
-            <h1>
-                Olá, Sejam Bem-Vindos!
-            </h1>
-            <h2>
-                Me chamo João Marcos e sou Desenvolvedor de Softwares.
-            </h2>
-        </section>
-    </div>
+        <nav class="nav_tabs">
+            <ul>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab_1" checked>
+                    <label for="tab_1">Sobre</label>
+                    <div class="content">
+                        <h1>
+                            Olá, Sejam Bem-Vindos!
+                        </h1>
+                        <h2>
+                            Me chamo João Marcos e sou Desenvolvedor de Softwares.
+                        </h2>
+                        <p class="conteudo_sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+                            laoreet sem. Integer quis
+                            malesuada nunc. Suspendisse iaculis justo purus, ut posuere enim facilisis et. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vitae
+                            metus mauris. Duis aliquet, massa nec facilisis mattis, nunc eros pretium nisi, non laoreet
+                            dui nisl in risus. Nam tellus nibh, efficitur sit amet libero sit amet, eleifend sagittis
+                            ex. Mauris eget rhoncus ipsum. Sed sodales pretium massa, blandit fermentum purus convallis
+                            sit amet. Quisque scelerisque, sem quis interdum dictum, sapien leo scelerisque elit, ut
+                            sodales lorem leo in est.
+                        </p>
+                        <p class="conteudo_sobre">Duis libero sem, euismod et aliquet ac, vehicula et nibh. Duis quis
+                            varius nibh. Praesent
+                            facilisis eget lorem a rutrum. Aenean et mollis massa. Sed bibendum semper turpis, nec
+                            rhoncus magna finibus ornare. Ut et elit in neque luctus blandit id et erat. Ut facilisis
+                            mollis felis et molestie. Maecenas efficitur leo ac velit viverra porta. Donec commodo
+                            consectetur ligula ut euismod. Sed in purus mauris. In imperdiet pharetra leo sit amet
+                            volutpat. Pellentesque auctor felis id sapien eleifend venenatis. Pellentesque ligula velit,
+                            blandit nec massa a, consequat rhoncus eros. Morbi varius blandit velit. Ut tincidunt ante a
+                            metus euismod, et faucibus dui ornare. Etiam ullamcorper tempus quam, a condimentum augue
+                            fringilla non.
+                        </p>
+                        <p class="conteudo_sobre">Nam ullamcorper blandit sagittis. Phasellus hendrerit eros eget
+                            tincidunt feugiat.
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                            Nulla molestie, tellus pretium condimentum aliquet, erat nulla ornare diam, ut iaculis risus
+                            arcu vel orci. Fusce egestas mi mi, vitae consectetur velit placerat a. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed a lacus
+                            ultricies lorem tempor sodales sed condimentum tortor. Vivamus ut maximus sapien, sit amet
+                            scelerisque dui. Proin pellentesque quis ex in fringilla. Cras volutpat, erat sed rhoncus
+                            pretium, neque magna maximus augue, non iaculis mi quam in nulla. Etiam nec lectus dui.
+                            Nulla consequat, justo a fermentum sollicitudin, purus eros tempor neque, vel fermentum
+                            ipsum orci in lorem. Donec eget mollis nibh, vitae mattis eros. Mauris nec neque malesuada,
+                            pulvinar mi vel, luctus diam. Fusce lacus eros, tempus id posuere id, convallis non tortor.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab_2">
+                    <label for="tab_2">Projetos</label>
+                    <div class="content">
+                        <h1>Projetos que Participei</h1>
+                        <div class="projetos">
+                            <div class="row_1">
+                                <div id="proj_1">
+                                    <img src="img/website-logo.png" id="img_card">
+                                    <h3>Site Gov.br</h3>
+                                    <p id="conteudo_card">Conheça o site criado para a empresa GOV.BR. O site no estilo
+                                        Land Page foi encomendado por uma agencia de comunicação especializada no
+                                        atendimento remoto.</p>
+                                </div>
+                                <div id="proj_2">
+                                    <img src="img/website-logo.png" id="img_card">
+                                    <h3>Site Gov.br</h3>
+                                    <p id="conteudo_card">Conheça o site criado para a empresa GOV.BR. O site no estilo
+                                        Land Page foi encomendado por uma agencia de comunicação especializada no
+                                        atendimento remoto.</p>
+                                </div>
+                                <div id="proj_3">
+                                    <img src="img/website-logo.png" id="img_card">
+                                    <h3>Site Gov.br</h3>
+                                    <p id="conteudo_card">Conheça o site criado para a empresa GOV.BR. O site no estilo
+                                        Land Page foi encomendado por uma agencia de comunicação especializada no
+                                        atendimento remoto.</p>
+                                </div>
+                            </div>
+
+                            <div class="row_2">
+                                <div id="proj_4">
+                                    <img src="img/website-logo.png" id="img_card">
+                                    <h3>Site Gov.br</h3>
+                                    <p id="conteudo_card">Conheça o site criado para a empresa GOV.BR. O site no estilo
+                                        Land Page foi encomendado por uma agencia de comunicação especializada no
+                                        atendimento remoto.</p>
+                                </div>
+                                <div id="proj_5">
+                                    <img src="img/website-logo.png" id="img_card">
+                                    <h3>Site Gov.br</h3>
+                                    <p id="conteudo_card">Conheça o site criado para a empresa GOV.BR. O site no estilo
+                                        Land Page foi encomendado por uma agencia de comunicação especializada no
+                                        atendimento remoto.</p>
+                                </div>
+                                <div id="proj_6">
+                                    <img src="img/website-logo.png" id="img_card">
+                                    <h3>Site Gov.br</h3>
+                                    <p id="conteudo_card">Conheça o site criado para a empresa GOV.BR. O site no estilo
+                                        Land Page foi encomendado por uma agencia de comunicação especializada no
+                                        atendimento remoto.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab_3">
+                    <label for="tab_3">Currículo</label>
+                    <div class="content">
+                        <h1>João Marcos</h1>
+                        <h6>paulo.farias@email.com.br</h6>
+                        <h6>(XX) 99999-9999</h6>
+                        <h6>linkedin.com/in/paulofarias</h6>
+                        <p class="conteudo_sobre">
+                            Estudante dedicado de administração de empresas na Universidade X. Trabalhei como auxiliar
+                            administrativo voluntário em eventos da minha universidade. A equipe com quem trabalhei teve
+                            um aumento de 25% na produtividade. Fluente em inglês, busco a chance de me aperfeiçoar em
+                            um ambiente internacional e aumentar a produtividade da minha equipe.
+                        </p>
+                        <h2>Formação acadêmica</h2>
+                        <ul class="tabela_form_acad">
+                            <li class="tabela_form_acad">Médica acadêmica de 9,0;</li>
+                            <li class="tabela_form_acad">Escolhido para ser o orador da turma;</li>
+                            <li class="tabela_form_acad">Minha monografia será publicada como livro;</li>
+                            <li class="tabela_form_acad">Publiquei 2 textos no site da universidade sobre administração
+                                de empresas.</li>
+
+                        </ul>
+                        <h2>Habilidades</h2>
+                        <ul class="tabela_form_acad">
+                            <li class="tabela_form_acad">Marketing digital, adquirida após fazer um curso na Escola X;
+                            </li>
+                            <li class="tabela_form_acad">Inglês fluente com certificação internacional da Universidade
+                                de Michigan;</li>
+                            <li class="tabela_form_acad">Gestão de redes sociais, adquirida após fazer um curso na
+                                Escola Y;</li>
+                            <li class="tabela_form_acad">Empatia, adquirida após trabalhar em eventos para pessoas
+                                carentes;</li>
+                            <li class="tabela_form_acad">Receptividade ao feedback, adquirida após trabalhar como
+                                voluntário.</li>
+                        </ul>
+                        <h2>Informações adicionais</h2>
+                        <p class="conteudo_sobre">
+                            Duis libero sem, euismod et aliquet ac, vehicula et nibh. Duis quis varius nibh. Praesent
+                            facilisis eget lorem a rutrum. Aenean et mollis massa. Sed bibendum semper turpis, nec
+                            rhoncus magna finibus ornare. Ut et elit in neque luctus blandit id et erat. Ut facilisis
+                            mollis felis et molestie. Maecenas efficitur leo ac velit viverra porta. Donec commodo
+                            consectetur ligula ut euismod. Sed in purus mauris. In imperdiet pharetra leo sit amet
+                            volutpat.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+    </aside>
 
 </body>
+
 </html>
