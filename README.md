@@ -7,7 +7,7 @@
 ![Badge](https://img.shields.io/github/issues/Gilvonaldo-Cavalcanti/Desenvolvimento-Web-CRIE-SITES-DO-ZERO)
 ![Badge](https://img.shields.io/github/forks/Gilvonaldo-Cavalcanti/Desenvolvimento-Web-CRIE-SITES-DO-ZERO)
 ![Badge](https://img.shields.io/github/license/Gilvonaldo-Cavalcanti/Desenvolvimento-Web-CRIE-SITES-DO-ZERO)
-![Badge](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGilvonaldo-Cavalcanti%2FDesenvolvimento-Web-CRIE-SITES-DO-ZERO)
+![Badge](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fgilvonaldoc)
 
 # Desenvolvimento Web: CRIE SITES DO ZERO
 Repositório do curso de Desenvolvimento Web do ParaíbaTEC 2022.
