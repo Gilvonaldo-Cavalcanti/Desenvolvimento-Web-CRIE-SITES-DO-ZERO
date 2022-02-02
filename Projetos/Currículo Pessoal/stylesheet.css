@@ -47,6 +47,10 @@ hr {
     height: 3px;
 }
 
+h1 {
+    margin-bottom: 10px;
+}
+
 h3 {
     color:rgb(187, 187, 233);
 }
@@ -62,3 +66,53 @@ h3 {
 #youtube {
     background-color: #FF0000;
 }
+
+#ani-exemplo:before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+#ani-exemplo:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#ani-exemplo:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgb(173, 206, 243);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+#ani-exemplo {
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+html {
+    block-size: 100%;
+    inline-size: 100%;
+}
+  
+body {
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui, sans-serif;
+}
+
+ul {
+    margin-left: 20px;
+}
+

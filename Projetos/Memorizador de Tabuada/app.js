@@ -12,7 +12,7 @@ calcular.addEventListener("click", () => {
     } else {
 
         var divisor = valor.value
-
+        
         for (i = 1; i <= 12; i++) {
 
             switch (select.value) {
@@ -20,7 +20,7 @@ calcular.addEventListener("click", () => {
                     var calc = String(i) + " + " + valor.value + " = " + (Number(i) + Number(valor.value));
                     break;
                 case "divisao":
-                    var calc = divisor + " / " + i + " = " + (Number(divisor) / valor.value);
+                    var calc = divisor + " / " + valor.value + " = " + (Number(divisor) / valor.value);
                     divisor = (Number(divisor) + Number(valor.value));
                     break;
                 case "multiplicacao":
